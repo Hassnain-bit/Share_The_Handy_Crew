@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+:root {
+    --color-black: #000000;
+    --color-white: #ffffff;
+    --color-light-white: rgb(255 255 255 / 70%);
+    --color-off-white: #F5F5F5;
+    --color-green: #72f0a0;
+
+    --ff-Raleway: 'Raleway', sans-serif;;
+
+    --f-bold: bold;
+
+    --f-size-09rem: 0.9rem;
+
+    --line-height: 1.5rem;
+}
+
+/* Buttons */
+.button{
+    border: none;
+    border-radius: 4px;
+    width: 125px;
+    height: 36px;
+    transition: all 0.5s ease;
+}
+.button:hover{
+    transform: scale(1.03) translateY(-5px);
+    transition: all 0.5s ease;
+    box-shadow: 0px 2px 10px #000000c2;
+}
+
+/* Custom Input */
+.custom-input{
+    background: var(--color-off-white);
+    width: 100%;
+    height: 45px;
+    border: 1px solid var(--color-black);
+    border-radius: 4px;
+    padding: 15px;
+    color: white;
+    overflow: hidden;
+}
+.custom-input.green{
+    background: rgb(6 132 136 / 10%);
+    border: 1px solid rgb(6 132 136 / 70%);
+}
+
+/* Background Colors */
+.greenBgColor{
+    background: var(--color-green) !important;
+}
+.whiteBgColor{
+    background: var(--color-white) !important;
+}
+.off-whiteBgColor{
+    background: var(--color-off-white) !important;
+}
+.blackBgColor{
+    background: var(--color-black) !important;
+}
+
+/* Colors */
+.greenColor{
+    color: var(--color-green) !important;
+}
+.whiteColor{
+    color: var(--color-white) !important;
+}
+.off-whiteColor{
+    color: var(--color-off-white) !important;
+}
+.blackColor{
+    color: var(--color-black) !important;
+}
+
+/* Font Bold */
+.f-bold{
+    font-weight: bold !important;
+}
+
+/* Font sizes */
+.f-size-09{
+    font-size: var(--f-size-09rem) !important;
+}
+
+.line-height{
+    line-height: var(--line-height) !important;
+}
+
+@media only screen and (max-width: 991px) {
+.flex-direction-column-reverse{
+    flex-direction: column-reverse !important;
+}
+}
+
+/* Animations */
+/* .fadeInUp{
+    animation: fadeInUp 2s ease-in-out !important;
+    animation-fill-mode: forwards;
+} */
+/* .fadeInLeft{
+    animation: fadeInLeft 2s ease-in-out;
+    animation-fill-mode: forwards;
+    animation-name: fadeInLeft;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+} */
+
+/* .fadeInRight{
+    animation: fadeInRight 2s ease-in-out;
+    animation-fill-mode: forwards;
+} */
+.flash{
+    animation: flash 4s ease-in-out infinite !important;
+}
+.bounce{
+    animation: bounce 3s linear infinite !important;
+}
+.opacity{
+    transition-property: opacity !important;
+    transition-duration: 1s !important;
+    transition-timing-function: linear !important;
+    opacity: .2 !important;
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(40px);
+     }
+     100% {
+        opacity: 1;
+        transform: translateY(0);
+     }
+ }
+
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-40px);
+     }
+     100% {
+        opacity: 1;
+        transform: translateX(0);
+     }
+ }
+
+ @keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(40px);
+     }
+     100% {
+        opacity: 1;
+        transform: translateX(0);
+     }
+ }
+
+// Main Section Tools
+.overflow{
+    overflow: visible;
+}
+.overflow.hidden{
+    overflow: hidden;
+}
+.main-overlay{
+    display: none;
+    transition: all 0.5s;
+}
+.main-overlay.active{
+    display: block;
+    background: black;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    opacity: .7;
+    z-index: 10;
+    transition: all 0.5s;
+}
+
+.main-section{
+    transition: all 0.5s;
+}
+.main-section.active{
+    transform : scale(.9);
+    transition: all 0.5s;
+}
+
+/* Custom Scroll Bar */
+::-webkit-scrollbar{
+    width: 6px!important;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--color-green);
+      height: 70px !important;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--color-black) ;
+  }

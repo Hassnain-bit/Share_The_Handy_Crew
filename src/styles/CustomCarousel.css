@@ -1,0 +1,35 @@
+.react-multi-carousel-list{
+    padding-bottom: 80px !important;
+}
+.react-multi-carousel-dot button {
+    display: inline-block !important;
+    width: 12px !important;
+    height: 12px !important;
+    border-radius: 50% !important;
+    opacity: 1 !important;
+    padding: 5px 5px 5px 5px !important;
+    box-shadow: none !important;
+    transition: background .5s !important;
+    border-width: 2px !important;
+    border-style: solid !important;
+    border-color: white !important;
+    padding: 0 !important;
+    
+    margin-right: 6px !important;
+    margin: 0 10px !important;
+    outline: 0 !important;
+    cursor: pointer !important;
+    background: black !important;
+}
+.react-multi-carousel-dot--active button {
+    background: white !important;
+}
+
+.react-multiple-carousel__arrow:hover {
+    background: var(--color-green) !important;
+    transition: all 0.5s ease;
+}
+.react-multiple-carousel__arrow:hover::before{
+    color: var(--color-black) !important;
+    transition: all 0.5s ease;
+}

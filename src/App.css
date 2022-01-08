@@ -1,5 +1,9 @@
 .App {
-  text-align: center;
+  background: var(--color-black);
+  font-family: var(--ff-Raleway);
+}
+.App.active {
+  overflow: hidden;
 }
 
 .App-logo {

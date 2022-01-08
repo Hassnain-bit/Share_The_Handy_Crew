@@ -1,0 +1,33 @@
+.footer-list{
+    padding: 0;
+    list-style: none;
+}
+.footer-list li{
+    color: var(--color-white);
+    margin: 5px 0px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    width: fit-content;
+}
+.footer-list li:hover{
+    margin-left: 10px;
+    transition: all 0.5s ease;
+    /* border-left: 1px solid; */
+    background: var(--color-green);
+    padding: 0 10px;
+    color: black;
+    
+    border-radius: 4px;
+}
+.circle-button{
+    border: none;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    transition: all 0.5s ease;
+}
+.circle-button:hover{
+    transform: scale(1.03) translateY(-5px);
+    transition: all 0.5s ease;
+    box-shadow: 0px 2px 10px #000000c2;
+}

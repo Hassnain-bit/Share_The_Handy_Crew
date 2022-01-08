@@ -1,0 +1,49 @@
+.team-box {
+  text-align: center;
+  background: linear-gradient(135deg, black, #0c0c0ccf);
+  color: rgb(255 255 255);
+  border-radius: 4px;
+  border: 1px solid rgb(255 255 255 / 20%);
+  box-shadow: -2px 4px 0px 0px var(--color-green);
+  transition: all 0.5s ease;
+}
+.team-box:hover{
+    box-shadow:0px 0px 0px 3px var(--color-green);
+    transform: translateY(-3px);
+    transition: all 0.5s ease;
+}
+.team-box h4 {
+  margin: 0 15px 1.5rem;
+  border-bottom: 1px solid rgb(255 255 255 / 20%);
+}
+.team-box .content-team-box {
+  display: grid;
+  place-content: center;
+  margin-top: 30px;
+  padding: 0 10px;
+}
+.team-box .item-team-box {
+  display: flex;
+  grid-gap: 25px;
+  margin-bottom: 30px;
+}
+.team-box .social-team-box{
+    display: flex;
+    place-content: center;
+    margin: 0 15px 0;
+    border-top: 1px solid rgb(255 255 255 / 20%);
+}
+.team-box .social-team-box i{
+    margin: 15px;
+    cursor: pointer;
+}
+.team-box .social-team-box div{
+    cursor: pointer;
+}
+.team-box .social-team-box div:hover{
+    transform: scale(1.03) translateY(-5px);
+    transition: all 0.5s ease;
+    color: var(--color-green);
+}
+
+
