@@ -4,7 +4,6 @@ import Navbar from '../components/Common/Navbar'
 import '../styles/Navbar.css'
 import '../styles/Footer.css'
 import HomePage from './HomePage'
-import ServicesPage from "./ServicesPage";
 
 function ConsumerSide(props) {
 
