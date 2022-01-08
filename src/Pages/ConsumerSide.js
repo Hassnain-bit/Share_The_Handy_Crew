@@ -3,7 +3,7 @@ import Footer from "../components/Common/Footer";
 import Navbar from '../components/Common/Navbar'
 import '../styles/Navbar.css'
 import '../styles/Footer.css'
-import HomePage from './HomePage'
+import ServicesPage from "./ServicesPage";
 
 function ConsumerSide(props) {
 
@@ -20,8 +20,8 @@ function ConsumerSide(props) {
             
             <div className={props.menu ? "main-section active" : "main-section"}>
 
-            <HomePage/>
-            {/* <ServicesPage/> */}
+            
+           <ServicesPage/>
 
             <Footer/>
             </div>
