@@ -1,22 +1,27 @@
-.servicesBanner{
-    position: relative;
-    height: 350px;
+.servicesBanner {
+  position: relative;
+  height: 350px;
 }
-.servicesBanner img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    opacity: .4;
+.servicesBanner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.2;
 }
 .servicesBanner .center-content {
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.servicesBanner .center-content h1 {
+  color: var(--color-white);
+  font-size: 3.5rem;
+  letter-spacing: 10px;
+}
+@media only screen and (max-width: 414px) {
+  .servicesBanner .center-content h1 {
+    font-size: 2.5rem;
   }
-  .servicesBanner  .center-content h1{
-    color: var(--color-white);
-    font-size: 3.5rem;
-    letter-spacing: 10px;
 }

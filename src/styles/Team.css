@@ -27,6 +27,9 @@
   grid-gap: 25px;
   margin-bottom: 30px;
 }
+.team-box .item-team-box span{
+  overflow-wrap: anywhere;
+}
 .team-box .social-team-box{
     display: flex;
     place-content: center;

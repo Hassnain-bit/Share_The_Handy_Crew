@@ -1,13 +1,12 @@
 import React from 'react'
-import bannerImg from "./../../images/servicesBanner.jpg";
 
-function ServicesBanner() {
+function ServicesBanner(props) {
     return (
         <div className="servicesBanner">
-            <img alt="bannerBgImg" src={bannerImg}/>
+            <img alt="bannerBgImg" src={props.img}/>
 
-            <div className="center-content col-12">
-                <h1>We Provide TRUST</h1>
+            <div className="center-content col-12 pl-15 pr-15">
+                <h1>{props.heading}</h1>
             </div>
         </div>
     )

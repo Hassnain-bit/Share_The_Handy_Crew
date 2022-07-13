@@ -1,6 +1,7 @@
 .App {
   background: var(--color-black);
   font-family: var(--ff-Raleway);
+  overflow-x: hidden;
 }
 .App.active {
   overflow: hidden;

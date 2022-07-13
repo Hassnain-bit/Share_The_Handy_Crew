@@ -15,11 +15,19 @@
 .D-navbar h5 {
   margin: 20px;
 }
+.D-navbar a{
+  text-decoration: none;
+  color: white;
+}
 .D-navbar ul {
   display: flex;
   list-style: none;
   padding: 0;
   margin: 10px 0;
+}
+.D-navbar ul a{
+  text-decoration: none;
+  color: white;
 }
 .D-navbar ul li {
     position: relative;
@@ -39,9 +47,9 @@
 .dropdown-content {
   display: none;
   position: absolute;
-  min-width: 160px;
+  min-width: 550px;
   z-index: 1;
-  left: 0;
+  left: -225px;
   top: 40px;
   
 }
@@ -50,6 +58,13 @@
     border: 1px solid var(--color-green);
     margin-top: 10px;
     border-radius: 4px;
+    display: flex;
+}
+.dropdown-content .align .blocks{
+  width: 50%;
+}
+.dropdown-content .align .blocks:nth-child(2){
+  border-left: 1px solid var(--color-green);
 }
 .dropdown-content a {
   float: none;
@@ -155,6 +170,7 @@
   .M-sideBar.active {
     right: 0;
     border-left: 1px solid var(--color-green);
+    overflow-y: scroll;
   }
   .M-sideBar ul{
       display: block;
@@ -190,7 +206,7 @@
 .M-sideBar ul li .M-dropdown-content a{
     color: white;
     text-decoration: none;
-    padding: 10px;
+    /* padding: 10px; */
 }
 .M-sideBar ul li .M-dropdown-content li:nth-child(1){
     padding-top: 20px;

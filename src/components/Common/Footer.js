@@ -10,12 +10,7 @@ function Footer() {
           <ScrollAnimation animateIn="fadeInLeft" animateOnce="true">
             <h4 className="f-bold whiteColor mb-4">The Handy Crew</h4>
             <p className="f-size-09 whiteColor">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic.
+            We feel happy and glad by seeing and knowing about the responses and feedbacks about our widely accepted partition works & services by all our clients. We work with the ultimate aim to satisfy and meet all clients’ requirements when they come to us for these kinds of services.
             </p>
             </ScrollAnimation>
           </div>
@@ -32,7 +27,7 @@ function Footer() {
           </div>
           
           <div className="col-md-3">
-          <ScrollAnimation animateIn="fadeInLeft" animateOnce="true" style={{animationDelay:"1s"}}>
+          <ScrollAnimation animateIn="fadeInLeft" animateOnce="true" style={{animationDelay:"0.7s"}}>
             <h5 className="f-bold whiteColor mb-4">Social handles</h5>
             <button className="circle-button greenBgColor mr-10">
               <svg

@@ -11,11 +11,12 @@ import Team from '../components/HomePage/Team'
 function HomePage() {
     return (
         <div>
+       
             <Banner/>
             <Services/>
             <AboutUs/>
             <Team/>
-            <ContactUs/>
+            <ContactUs  headingColor={"black"} backgroundColor={"#F5F5F5"} inputTitleColor={"black"} addClass={"custom-input"} btnBg={"black"} btnColor={"white"}/>
         </div>
     )
 }

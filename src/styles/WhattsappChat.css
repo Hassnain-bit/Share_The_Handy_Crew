@@ -1,0 +1,18 @@
+.whatsapp_widget_chat_wrapper_inner{
+    background-color: black !important;
+}
+.whatsapp_widget_chat_wrapper_inner div{
+    color: white !important;
+}
+.whatsapp_widget_pop{
+    box-shadow: -2px 4px 0px 0px var(--color-green) !important;
+}
+.whatsapp_widget_wrapper{
+    z-index: 99 !important
+}
+.whatsapp_widget_pop.close{
+    display: none !important;
+}
+.whatsapp_widget_pop_open{
+    display: block !important;
+}

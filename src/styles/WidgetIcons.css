@@ -1,0 +1,20 @@
+.email-widget-wrapper{
+    position: fixed;
+    bottom: 75px;
+    right: 15px;
+    display: flex;
+    z-index: 99;
+}
+.email-widget-icon{
+    background-color: rgb(114, 240, 160);
+    width: 48px;
+    height: 48px;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    border: solid 1px #eee;
+    box-shadow: 1px 1px 3px rgb(0 0 0 / 30%);
+}
